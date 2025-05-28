@@ -1,5 +1,3 @@
-import { url } from "inspector";
-
 export const NavLinks = [
     {
         id: 1,
@@ -9,12 +7,12 @@ export const NavLinks = [
     {
         id: 2,
         url: "#",
-        label: "Company",
+        label: "Compania",
     },
     {
         id: 3,
         url: "#",
-        label: "Services",
+        label: "Serviços",
     },
     {
         id: 4,
@@ -29,6 +27,6 @@ export const NavLinks = [
     {
         id: 6,
         url: "#",
-        label: "Contact",
+        label: "Contato"
     }
 ]
