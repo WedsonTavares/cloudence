@@ -1,1 +1,4 @@
-47:53
+react icons
+tailwind
+tailwind dark mode
+Next themes
