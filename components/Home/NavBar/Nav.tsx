@@ -9,7 +9,8 @@ type Props = {
     openNav: () => void;
 }
 
-function Nav({openNav}: Props) {
+
+const Nav = ({ openNav }: Props) => {
 
     const [navBG, setNavBG] = useState(false);
 
@@ -28,7 +29,8 @@ function Nav({openNav}: Props) {
     return (
         <div className=
             {`transition-all ${navBG ? "bg-blue-900 shadow-md" : "fixed"} 
-            duration-300 h-[12vh] z-[100] foxed w-full bg-blue-900`}>
+            duration-200 h-[12vh] z-[100] fixed w-full `}>
+
             <div className="flex items-center mx-auto h-full justify-between w-[90%] xl:w-[80%]">
                 {/* Logo */}
                 <div className="flex items-center space-x-2">
@@ -51,7 +53,7 @@ function Nav({openNav}: Props) {
                             <Link href={link.url} key={link.id} className="text-white hover:text-pink-300 text-sm font-semibold transition-all duration-200">
                                 <p>{link.label}</p>
                             </Link>
-                        )
+                        );
                     })}
                 </div>
                 {/* buttons */}
@@ -62,7 +64,7 @@ function Nav({openNav}: Props) {
                         <span className='absolute top-0 left-0 w-full h-full rounded
                         opacity-50 filter blur-sm bg-gradient-to-br from-purple-600 to-blue-500'></span>
                         <span className='h-full w-full inset-0 absolute mt-0.5 ml-0.5 bg-gradient-to-br filter
-                         from-purple-600 to-blue-500 group-active:opacity-0 rounded opacity-50'></span>
+                         group-active:opacity-0 rounded opacity-50 from-purple-600 to-blue-500'></span>
                         <span className='absolute w-full h-full inset-0 transition-all duration-200 ease-out 
                         rounded shadow-xl bg-gradient-to-br filter group-active:opacity-0 group-hover:blur-sm
                         from-purple-600 to-blue-500'></span>
@@ -78,5 +80,5 @@ function Nav({openNav}: Props) {
         </div>
     )
 }
-
-export default Nav
+    
+export default Nav;
