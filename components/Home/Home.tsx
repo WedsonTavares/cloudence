@@ -1,14 +1,12 @@
 import React from 'react'
 import Hero from './Hero/Hero'
+import Services from '../Services/Services'
 
 function Home() {
   return (
     <div className='overflow-hidden'>
       <Hero />
-      {/* <ResponsiveNav /> */}
-      {/* <Nav /> */}
-      {/* <MobileNav /> */}
-      {/* <Footer /> */}
+      <Services />
     </div>
   )
 }
