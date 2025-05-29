@@ -14,7 +14,7 @@ const About = () => {
                     <p className='text-sm sm:text-base md:text-xl font-bold text-blue-700 dark:text-pink-500 uppercase'>
                         Sobre nós
                     </p>
-                    <h1 className='text-2xl md:text-3xl lg:text-5xl mt-3 font-bold leading-[1.8rem] md:leading-[3rem]'>
+                    <h1 className='text-2xl md:text-3xl lg:text-4l mt-3 font-bold leading-[1.8rem] md:leading-[3rem]'>
                         Inovação e Excelência Construindo Juntos o Futuro Digital
                     </h1>
                     <p className='mt-3 text-gray-700 dark:text-gray-300'>
