@@ -1,4 +1,6 @@
 react icons
 tailwind
 tailwind dark mode
-Next themes
+Next themess
+
+1:21:55
