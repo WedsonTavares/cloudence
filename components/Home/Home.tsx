@@ -3,6 +3,8 @@ import Hero from './Hero/Hero'
 import Services from './Services/Services'
 import About from './About/About'
 import WhyChoose from './WhyChoose/WhyChoose'
+import Software from './Software/Software'
+import Project from './Project/Project'
 
 function Home() {
   return (
@@ -11,8 +13,8 @@ function Home() {
       <Services />
       <About />
       <WhyChoose />
-      {/* <Testimonials /> */}
-      {/* <Contact /> */}
+      <Software />
+      <Project />
     </div>
   )
 }
