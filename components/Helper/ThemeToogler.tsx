@@ -1,7 +1,7 @@
 "use client"
 
 import { useTheme } from 'next-themes';
-import React, { use, useEffect } from 'react'
+import React, {useEffect } from 'react'
 import { BiMoon, BiSun } from 'react-icons/bi';
 
 const ThemeToogler = () => {

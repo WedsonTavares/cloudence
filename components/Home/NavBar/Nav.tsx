@@ -3,7 +3,6 @@ import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
 import { NavLinks } from '../../../constant/constant'
 import { HiBars3BottomRight } from 'react-icons/hi2'
-import { ThemeProvider } from 'next-themes'
 import ThemeToogler from '../../Helper/ThemeToogler'
 
 
