@@ -1,12 +1,12 @@
 "use client"
 
 import { useTheme } from 'next-themes';
-import React, {useEffect } from 'react'
+import {useEffect, useState } from 'react'
 import { BiMoon, BiSun } from 'react-icons/bi';
 
 const ThemeToogler = () => {
 
-    const [mounted, setMounted] = React.useState(false);
+    const [mounted, setMounted] = useState(false);
 
     const { theme, setTheme, systemTheme } = useTheme();
 
