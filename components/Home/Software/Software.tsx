@@ -6,7 +6,6 @@ const Software = () => {
         <div className='pt-16 pb-16'>
             <div className='text-center'>
                 {/* subheading */}
-
                 <h1 className='uppercase text-lg sm:text-xl md:text-2xl font-bold text-blue-700 dark:text-pink-500'>
                     Softwares
                 </h1>

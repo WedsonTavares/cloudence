@@ -6,7 +6,7 @@ import WhyChoose from './WhyChoose/WhyChoose'
 import Software from './Software/Software'
 import Project from './Project/Project'
 import Review from './Review/Review'
-import ReviewCard from './Review/ReviewCard'
+import Blog from './Blog/Blog'
 
 function Home() {
   return (
@@ -18,6 +18,7 @@ function Home() {
       <Software />
       <Project />
       <Review />
+      <Blog />
     </div>
   )
 }
