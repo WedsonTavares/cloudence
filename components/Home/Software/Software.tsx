@@ -19,19 +19,19 @@ const Software = () => {
                 <div
                     data-aos="fade-up"
                     data-aos-anchor-placement="top-center">
-                    <SoftawareCard icon="/images/i1.png" title="Best Marketing Software" />
+                    <SoftawareCard icon="/images/i1.png" title="Melhor software de marketing" />
                 </div>
                 <div
                     data-aos="fade-up"
                     data-aos-anchor-placement="top-center"
                     data-aos-delay="100">
-                    <SoftawareCard icon="/images/i2.png" title="Product Sale Softaware" />
+                    <SoftawareCard icon="/images/i2.png" title="Software para venda de produtos" />
                 </div>
                 <div
                     data-aos="fade-up"
                     data-aos-anchor-placement="top-center"
                     data-aos-delay="200">
-                    <SoftawareCard icon="/images/i3.png" title="Best Marketing Software" />
+                    <SoftawareCard icon="/images/i3.png" title="Melhor software de AI" />
                 </div>
             </div>
         </div>
