@@ -6,7 +6,8 @@ const About = () => {
         <div className='pt-16 pb-16'>
             <div className='w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center'>
                 {/* image contain */}
-                <div>
+                <div data-aos="zoom-in" data-aos-anchor-placement="top-center"
+                >
                     <Image src="/images/about.png" alt="image" width={700} height={700} />
                 </div>
                 {/* text contain */}

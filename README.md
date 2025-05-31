@@ -2,8 +2,11 @@ react icons
 tailwind
 tailwind dark mode
 Next themess
+npm install --save aos@next
 
-02:50:10
+npm install --save--dev @types/aos
+
+03:14:40
 
 
 layout.tsx: define o que aparece em todas as páginas (navbar, provider, footer, etc).

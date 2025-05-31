@@ -27,35 +27,52 @@ const Services = () => {
                 </div>
                 {/* section services */}
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 items-center mt-16'>
-                    <div>
-                        <ServiceCard 
-                        image="/images/s1.png" 
-                        title="Desenvolvimento de Softwares Personalizados"/>
+                    <div
+                        data-aos="fade-right"
+                        data-aos-anchor-placement="top-center">
+                        <ServiceCard
+                            image="/images/s1.png"
+                            title="Desenvolvimento de Softwares Personalizados" />
                     </div>
-                    <div>
-                        <ServiceCard 
-                        image="/images/s2.png" 
-                        title="Design e desenvolvimento de sites"/>
+                    <div
+                        data-aos="fade-right"
+                        data-aos-anchor-placement="top-center"
+                        data-aos-delay="100">
+                        <ServiceCard
+                            image="/images/s2.png"
+                            title="Design e desenvolvimento de sites" />
                     </div>
-                    <div>
-                        <ServiceCard 
-                        image="/images/s3.png" 
-                        title="Claude Serviços de Computação e Hospedagem"/>
+                    <div
+                        data-aos="fade-right"
+                        data-aos-anchor-placement="top-center"
+                        data-aos-delay="200">
+                        <ServiceCard
+                            image="/images/s3.png"
+                            title="Claude Serviços de Computação e Hospedagem" />
                     </div>
-                    <div>
-                        <ServiceCard 
-                        image="/images/s4.png" 
-                        title="Integração de IA e aprendizado de máquina"/>
+                    <div
+                        data-aos="fade-right"
+                        data-aos-anchor-placement="top-center"
+                        data-aos-delay="300">
+                        <ServiceCard
+                            image="/images/s4.png"
+                            title="Integração de IA e aprendizado de máquina" />
                     </div>
-                    <div>
-                        <ServiceCard 
-                        image="/images/s5.png" 
-                        title="Desenvolvimento Android e IOS"/>
+                    <div
+                        data-aos="fade-right"
+                        data-aos-anchor-placement="top-center"
+                        data-aos-delay="400">
+                        <ServiceCard
+                            image="/images/s5.png"
+                            title="Desenvolvimento Android e IOS" />
                     </div>
-                    <div>
-                        <ServiceCard 
-                        image="/images/s6.png" 
-                        title="Gráficos 3D e Design Vetorial"/>
+                    <div
+                        data-aos="fade-right"
+                        data-aos-anchor-placement="top-center"
+                        data-aos-delay="500">
+                        <ServiceCard
+                            image="/images/s6.png"
+                            title="Gráficos 3D e Design Vetorial" />
                     </div>
                 </div>
             </div>

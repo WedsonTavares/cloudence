@@ -16,20 +16,25 @@ const Blog = () => {
                 </h1>
             </div>
             <div className='w-[80%] mt-16 mx-auto grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6'>
-                <div>
+                <div
+                    data-aos="fade-right">
                     <BlogCard
                         image="/images/b1.png"
                         title="Experimente conselhos para aumentar sua presença digital"
                     />
                 </div>
-                <div>
+                <div
+                    data-aos="fade-right"
+                    data-aos-delay="100">
                     <BlogCard
                         image="/images/b2.png"
                         title="Estratégias Baseadas em Dados e Estudos de Casos de Sucesso" />
 
-                    
+
                 </div>
-                <div>
+                <div
+                    data-aos="fade-right"
+                    data-aos-delay="200">
                     <BlogCard
                         image="/images/b3.png"
                         title="O blog Completo de SEO para Sucesso Digital"
