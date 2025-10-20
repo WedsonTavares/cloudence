@@ -31,9 +31,9 @@ O projeto usa o App Router do Next.js. Para ver a demo localmente rode o servido
 
 Visualizar Demo (repositório): <a href="https://github.com/WedsonTavares/cloudence" target="_blank" rel="noopener">https://github.com/WedsonTavares/cloudence</a>
 
-URL sugerida para GitHub Pages (se você exportar como site estático): <a href="https://cloudence.netlify.app" target="_blank" rel="noopener">https://cloudence.netlify.app</a>
+URL sugerida para visulização (se você exportar como site estático): <a href="https://cloudence.netlify.app" target="_blank" rel="noopener">https://cloudence.netlify.app</a>
 
-Observação: a demo hospedada automaticamente por Next (Vercel) funciona melhor para projetos Next.js. Caso queira usar GitHub Pages é necessário gerar export estático (next export) e hospedar os arquivos gerados.
+Observação: a demo hospedada no netlify. Caso queira usar GitHub Pages é necessário gerar export estático (next export) e hospedar os arquivos gerados.
 
 ---
 
@@ -87,7 +87,7 @@ npm run start
 ```
 
 Observações de deploy:
-- Para deploy recomendado use Vercel (integração nativa com Next.js).
+- Para deploy recomendado use netlify ou Vercel.
 
 ---
 
