@@ -10,7 +10,7 @@ Este README foi gerado automaticamente a partir da análise do repositório.
 
 Página de demonstração totalmente responsiva para uma empresa de software (CodeVance). Desenvolvida com Next.js, React, Tailwind CSS e algumas bibliotecas auxiliares (AOS, react-icons, next-themes).
 
-<a href="https://wedsonTavares.github.io/cloudence/" target="_blank" rel="noopener"><strong>➥ Ver Demonstração</strong></a>
+<a href="cloudence.netlify.app" target="_blank" rel="noopener"><strong>➥ Ver Demonstração</strong></a>
 
 <h1 align="center">Cloudence — Landing Page (Frontend)</h1>
 
@@ -39,7 +39,7 @@ O projeto usa o App Router do Next.js. Para ver a demo localmente rode o servido
 
 Visualizar Demo (repositório): <a href="https://github.com/WedsonTavares/cloudence" target="_blank" rel="noopener">https://github.com/WedsonTavares/cloudence</a>
 
-URL sugerida para GitHub Pages (se você exportar como site estático): <a href="https://wedsonTavares.github.io/cloudence/" target="_blank" rel="noopener">https://wedsonTavares.github.io/cloudence/</a>
+URL sugerida para GitHub Pages (se você exportar como site estático): <a href="cloudence.netlify.app" target="_blank" rel="noopener">cloudence.netlify.app</a>
 
 Observação: a demo hospedada automaticamente por Next (Vercel) funciona melhor para projetos Next.js. Caso queira usar GitHub Pages é necessário gerar export estático (next export) e hospedar os arquivos gerados.
 
