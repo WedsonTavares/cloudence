@@ -1,16 +1,8 @@
-react icons
-tailwind
-tailwind dark mode
-<!--
-Cloudence - Landing page (Next.js + Tailwind)
-Este README foi gerado automaticamente a partir da análise do repositório.
--->
-
 <h2 align="center">Cloudence — Landing Page (CodeVance)</h2>
 
 Página de demonstração totalmente responsiva para uma empresa de software (CodeVance). Desenvolvida com Next.js, React, Tailwind CSS e algumas bibliotecas auxiliares (AOS, react-icons, next-themes).
 
-<a href="cloudence.netlify.app" target="_blank" rel="noopener"><strong>➥ Ver Demonstração</strong></a>
+<a href="https://cloudence.netlify.app" target="_blank" rel="noopener"><strong>➥ Ver Demonstração</strong></a>
 
 <h1 align="center">Cloudence — Landing Page (Frontend)</h1>
 
@@ -39,7 +31,7 @@ O projeto usa o App Router do Next.js. Para ver a demo localmente rode o servido
 
 Visualizar Demo (repositório): <a href="https://github.com/WedsonTavares/cloudence" target="_blank" rel="noopener">https://github.com/WedsonTavares/cloudence</a>
 
-URL sugerida para GitHub Pages (se você exportar como site estático): <a href="cloudence.netlify.app" target="_blank" rel="noopener">cloudence.netlify.app</a>
+URL sugerida para GitHub Pages (se você exportar como site estático): <a href="https://cloudence.netlify.app" target="_blank" rel="noopener">https://cloudence.netlify.app</a>
 
 Observação: a demo hospedada automaticamente por Next (Vercel) funciona melhor para projetos Next.js. Caso queira usar GitHub Pages é necessário gerar export estático (next export) e hospedar os arquivos gerados.
 
@@ -96,7 +88,6 @@ npm run start
 
 Observações de deploy:
 - Para deploy recomendado use Vercel (integração nativa com Next.js).
-- Para GitHub Pages: rode `next export` após `next build` e publique a pasta `out/` (requer adaptações se usar rotas dinâmicas ou recursos SSR).
 
 ---
 
@@ -165,5 +156,3 @@ git push -u origin main
 Projeto livre para estudo e uso pessoal. Inclua atribuição se compartilhar publicamente.
 
 ---
-
-<!-- Fim do README gerado automaticamente -->
